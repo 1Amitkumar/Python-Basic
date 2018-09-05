@@ -1,2 +1,2 @@
-x = 12
-print(type(x))
+a = 12
+print(type(a))
