@@ -1,2 +1,2 @@
-i = 100
-print(i)
+a = 100
+print(a)
