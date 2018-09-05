@@ -1,2 +1,2 @@
-f = 12.3
-print(f)
+fv = 12.3
+print(fv)
