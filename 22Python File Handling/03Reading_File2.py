@@ -1,3 +1,3 @@
-f = open('myfile.txt', 'r')
+f = open('test.txt', 'r')
 print(f.readlines())  # read entire content of file at once
 f.close()
