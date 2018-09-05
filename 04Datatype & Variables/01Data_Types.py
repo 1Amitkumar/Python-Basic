@@ -1,12 +1,12 @@
-x = 100  # x is integer
-pi = 3.14  # pi is float
-empname = "python is great"  # empname is string
+a = 100  # a is integer
+pie = 3.14  # pie is float
+name = "python is great"  # name is string
 
-a = b = c = 100  # this statement assign 100 to c, b and a.
+a = b = c = 200  # this statement assign 200 to z, y and x.
 
-print(x)
-print(pi)
-print(empname)
 print(a)
-print(b)
-print(c)
+print(pie)
+print(name)
+print(x)
+print(y)
+print(z)
