@@ -1,3 +1,3 @@
-age = int(input("Enter your age: "))
-print(age)
-print(type(age))
+var = int(input("Enter your age: "))
+print(var)
+print(type(var))
