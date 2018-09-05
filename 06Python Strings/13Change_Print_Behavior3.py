@@ -1,0 +1,1 @@
+print("my string", end="foo")  # now print() will print foo after every string
