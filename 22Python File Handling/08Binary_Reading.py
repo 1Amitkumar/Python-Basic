@@ -1,5 +1,5 @@
 import pickle
-f = open('pick.dat', 'rb')
+f = open('binary.dat', 'rb')
 print(pickle.load(f))
 print(pickle.load(f))
 print(pickle.load(f))
