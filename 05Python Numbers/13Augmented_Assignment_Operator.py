@@ -1,3 +1,3 @@
-count = 1
-count = count + 1
-print(count)
+sum = 1
+sum = sum + 1
+print(sum)
