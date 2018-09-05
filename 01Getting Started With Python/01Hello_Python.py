@@ -1,2 +1,2 @@
-myvar = "Hello Python"
-print(myvar)
+var = "Hello Python"
+print(var)
