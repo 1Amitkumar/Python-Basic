@@ -1,2 +1,2 @@
-myvar = 1
-print(myvar)
+var = 1
+print(var)
