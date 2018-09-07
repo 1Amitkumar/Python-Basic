@@ -1,4 +1,4 @@
-print("my string", end="\n")  # this is default behavior
+print("my line", end="\n")  # this is default
 
 
 
