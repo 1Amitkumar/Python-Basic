@@ -1,8 +1,8 @@
-name = "tom"  # a string
+name = "rupa"  #  string
 print(name[0])
 
-s = "tom and " + "jerry"
+s = "rupa and " + "rani"
 print(s)
 
-s = "this is bad spam " * 3
+s = "this is bad " * 3
 print(s)
