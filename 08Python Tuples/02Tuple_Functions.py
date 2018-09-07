@@ -1,8 +1,8 @@
-t1 = (1, 12, 55, 12, 81)
-print(min(t1))
+tp = (1, 12, 55, 12, 81)
+print(min(tp))
 
-print(max(t1))
+print(max(tp))
 
-print(sum(t1))
+print(sum(tp))
 
-print(len(t1))
+print(len(tp))
