@@ -1,4 +1,4 @@
-s = "welcome to python"
+s = "welcome to india"
 print(s.isalnum())
 
 print("Welcome".isalpha())
