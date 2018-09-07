@@ -1,5 +1,5 @@
-name1 = str()  # this will create empty string object
-print(name1)
+name_1 = str()  # create empty string object
+print(name_1)
 
-name2 = str("newstring")  # string object containing 'newstring'
-print(name2)
+name_2 = str("newstr")  # string object contains 'newstr'
+print(name_2)
