@@ -1,4 +1,4 @@
-s = "string in python"
+s = "python in india"
 s1 = s.capitalize()
 print(s1)
 
