@@ -1,5 +1,5 @@
-name = "tom"  # a string
+name = "rupa"  # a string
 print(name)
 
-mychar = 'a'  # a character
-print(mychar)
+char = 'a'  # a character
+print(char)
