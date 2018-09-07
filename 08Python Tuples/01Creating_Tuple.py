@@ -1,4 +1,4 @@
-t1 = ()  # creates an empty tuple with no data
+t1 = ()  # creates an empty tuple
 print(t1)
 
 t2 = (11, 22, 33)
