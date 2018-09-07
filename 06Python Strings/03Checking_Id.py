@@ -1,9 +1,9 @@
-str1 = "welcome"
-str2 = "welcome"
+str_1 = "hello"
+str_2 = "hello"
 
-print(id(str1))
-print(id(str2))
+print(id(str_1))
+print(id(str_2))
 
-str1 += " mike"
-print(str1)
-print(id(str1))
+str_1 += " rani"
+print(str_1)
+print(id(str_1))
