@@ -1,11 +1,11 @@
-list1 = list() # Create an empty list
-print(list1)
+l1 = list() # Create an empty list
+print(l1)
 
-list2 = list([22, 31, 61])  # Create a list with elements 22, 31, 61
-print(list2)
+l2 = list([22, 31, 61])  # Create a list with elements 22, 31, 61
+print(l2)
 
-list3 = list(["tom", "jerry", "spyke"])  # Create a list with strings
-print(list3)
+l3 = list(["rupa", "rani", "radha"])  # Create a list with strings
+print(l3)
 
-list5 = list("python")  # Create a list with characters p, y, t, h, o, n
-print(list5)
+l4 = list("india")  # Create a list with characters i, n, d, i, a
+print(l4)
