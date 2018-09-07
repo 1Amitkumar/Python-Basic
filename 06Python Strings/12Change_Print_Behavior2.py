@@ -1,1 +1,1 @@
-print("my string", end="")  # print string without a newline
+print("my line", end="")  # print without a newline
