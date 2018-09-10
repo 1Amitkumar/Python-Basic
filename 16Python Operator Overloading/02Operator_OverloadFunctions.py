@@ -1,7 +1,7 @@
 import math
 
 
-class Circle:
+class Circle_Detail:
 
     def __init__(self, radius):
         self.__radius = radius
@@ -16,7 +16,7 @@ class Circle:
         return math.pi * self.__radius ** 2
 
     def __add__(self, another_circle):
-        return Circle(self.__radius + another_circle.__radius)
+        return Circle_Detail(self.__radius + another_circle.__radius)
 
     def __gt__(self, another_circle):
         return self.__radius > another_circle.__radius
@@ -28,10 +28,10 @@ class Circle:
         return "Circle with radius " + str(self.__radius)
 
 
-c1 = Circle(4)
+c1 = Circle_Detail(4)
 print(c1.get_radius())
 
-c2 = Circle(5)
+c2 = Circle_Detail(5)
 print(c2.get_radius())
 
 c3 = c1 + c2
