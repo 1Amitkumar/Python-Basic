@@ -3,7 +3,7 @@ frnd = {
 'sita' : '666-33-111'
 }
 
-frnd['bob'] = '888-999-666'
+frnd['radha'] = '888-999-666'
 print(frnd)
 
 
