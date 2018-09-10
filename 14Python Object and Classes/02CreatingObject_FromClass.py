@@ -1,16 +1,16 @@
-class Person:
+class Car:
 
     # constructor or initializer
     def __init__(self, name):
-        self.name = name  # name is data field also commonly known as instance variables
+        self.name = name  # name is data field also known as instance variables
 
     # method which returns a string
 
     def who(self):
-        return "You are " + self.name
+        return "this is " + self.name
 
 
-p1 = Person('tom')  # now we have created a new person object p1
+p1 = Car('audi_a6')  # now we have created a new car object p1
 print(p1.who())
-p1.name = "jerry"
+p1.name = "bmw_x5"
 print(p1.name)
