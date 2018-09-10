@@ -1,6 +1,6 @@
-friends = {
-'tom': '111-222-333',
-'jerry' : '666-33-111',
+frnd = {
+'ram': '111-222-333',
+'sita' : '666-33-111',
 }
 
-print(len(friends))
+print(len(frnd))
