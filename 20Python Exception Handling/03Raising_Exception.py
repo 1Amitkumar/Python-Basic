@@ -1,6 +1,6 @@
-def enterage(age):
+def enter_age(age):
     if age < 0:
-        raise ValueError("Only positive integers are allowed")
+        raise ValueError("only positive integers are allowed")
 
     if age % 2 == 0:
         print("age is even")
@@ -9,10 +9,10 @@ def enterage(age):
 
 
 try:
-    num = int(input("Enter your age: "))
-    enterage(num)
+    num = int(input("enter age: "))
+    enter_age(num)
 
 except ValueError:
-    print("Only positive integers are allowed")
+    print("only positive integers are allowed")
 except:
     print("something is wrong")
