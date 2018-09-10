@@ -1,5 +1,5 @@
 def foo():
-    global x  # x is declared as global so it is available outside the function
+    global x  # x is declared as global available outside the function
     x = 100
 
 
