@@ -1,7 +1,7 @@
-class Vehicle:
+class Automobile:
 
     def __init__(self, name, color):
-        self.__name = name  # __name is private to Vehicle class
+        self.__name = name  # __name is private to Automobile class
         self.__color = color
 
     def get_color(self):  # get_color() function is accessible to class Car
@@ -14,7 +14,7 @@ class Vehicle:
         return self.__name
 
 
-class Car(Vehicle):
+class Car(Automobile):
 
     def __init__(self, name, color, model):
         # call parent constructor to set name and color
@@ -30,4 +30,4 @@ class Car(Vehicle):
 
 c = Car("Ford Mustang", "red", "GT350")
 print(c.get_description())
-print(c.get_name())  # car has no method get_name() but it is accessible through class Vehicle
+print(c.get_name())  # car has no method get_name() but it is accessible through class Automobile
