@@ -1,8 +1,8 @@
-friends = {
-'tom': '111-222-333',
-'jerry': '666-33-111',
-'bob': '888-999-666',
+frnd = {
+'ram': '111-222-333',
+'sita': '666-33-111',
+'radha': '888-999-666',
 }
 
-del friends['bob']
-print(friends)
+del frnd['radha']
+print(frnd)
