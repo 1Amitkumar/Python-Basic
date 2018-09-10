@@ -1,12 +1,12 @@
-class NegativeAgeException(RuntimeError):
+class NegativeAge(RuntimeError):
     def __init__(self, age):
         super().__init__()
         self.age = age
 
 
-def enterage(age):
+def enter_age(age):
     if age < 0:
-        raise NegativeAgeException("Only positive integers are allowed")
+        raise NegativeAge("only positive integers are allowed")
 
     if age % 2 == 0:
         print("age is even")
@@ -15,9 +15,9 @@ def enterage(age):
 
 
 try:
-    num = int(input("Enter your age: "))
-    enterage(num)
-except NegativeAgeException:
-    print("Only positive integers are allowed")
+    num = int(input("enter your age: "))
+    enter_age(num)
+except NegativeAge:
+    print("only positive integers are allowed")
 except:
     print("something is wrong")
