@@ -1,27 +1,27 @@
-friends = {'tom': '111-222-333', 'bob': '888-999-666', 'jerry': '666-33-111'}
+frnd = {'ram': '111-222-333', 'sita': '888-999-666', 'gita': '666-33-111'}
 
-print(friends.popitem())
+print(frnd.popitem())
 
-friends.clear()
+frnd.clear()
 
-print(friends)
-
-
-friends = {'tom': '111-222-333', 'bob': '888-999-666', 'jerry': '666-33-111'}
-
-print(friends.keys())
+print(frnd)
 
 
-print(friends.values())
+frnds = {'ravi': '111-222-333', 'rohit': '888-999-666', 'meena': '666-33-111'}
+
+print(frnds.keys())
 
 
-print(friends.get('tom'))
+print(frnds.values())
 
 
-print(friends.get('mike', 'Not Exists'))
+print(frnds.get('ravi'))
 
 
-print(friends.pop('bob'))
+print(frnds.get('rohit', 'Not Exists'))
 
 
-print(friends)
+print(frnds.pop('meena'))
+
+
+print(frnds)
