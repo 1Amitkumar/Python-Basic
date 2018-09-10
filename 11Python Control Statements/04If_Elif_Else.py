@@ -1,18 +1,18 @@
-today = "monday"
+day = "monday"
 
-if today == "monday":
+if day == "monday":
     print("this is monday")
-elif today == "tuesday":
+elif day == "tuesday":
     print("this is tuesday")
-elif today == "wednesday":
+elif day == "wednesday":
     print("this is wednesday")
-elif today == "thursday":
+elif day == "thursday":
     print("this is thursday")
-elif today == "friday":
+elif day == "friday":
     print("this is friday")
-elif today == "saturday":
+elif day == "saturday":
     print("this is saturday")
-elif today == "sunday":
+elif day == "sunday":
     print("this is sunday")
 else:
     print("something else")
