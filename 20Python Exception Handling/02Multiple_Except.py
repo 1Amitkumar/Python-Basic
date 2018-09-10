@@ -1,19 +1,19 @@
 try:
-    num1, num2 = eval(input("Enter two numbers, separated by a comma : "))
-    result = num1 / num2
-    print("Result is", result)
+    n1, n2 = eval(input("enter two numbers, separated by a comma : "))
+    result = n1 / n2
+    print("result is", result)
 
 except ZeroDivisionError:
-    print("Division by zero is error !!")
+    print("division by zero error !!")
 
 except SyntaxError:
-    print("Comma is missing. Enter numbers separated by comma like this 1, 2")
+    print("comma is missing. enter numbers separated by comma like this 1, 2")
 
 except:
-    print("Wrong input")
+    print("wrong input")
 
 else:
-    print("No exceptions")
+    print("no exceptions")
 
 finally:
-    print("This will execute no matter what")
+    print("this will execute no matter what")
