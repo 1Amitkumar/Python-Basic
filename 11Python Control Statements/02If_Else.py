@@ -1,6 +1,6 @@
 i = 10
 
 if i % 2 == 0:
-    print("Number is even")
+    print("Number even")
 else:
-    print("Number is odd")
+    print("Number odd")
