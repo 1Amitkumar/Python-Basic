@@ -1,8 +1,8 @@
-friends = {
-'tom': '111-222-333',
-'jerry' : '666-33-111',
+frnd = {
+'ram': '111-222-333',
+'sita' : '666-33-111',
 }
 
-print('tom' in friends)
+print('ram' in frnd)
 
-print('tom' not in friends)
+print('ram' not in frnd)
