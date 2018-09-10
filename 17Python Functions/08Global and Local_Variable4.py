@@ -1,7 +1,7 @@
 t = 1
 
 
-def increment():
+def incre():
     # global t = 1   # this is error
     global t
     t = 100  # this is okay
@@ -9,5 +9,5 @@ def increment():
     print(t)  # Displays 101
 
 
-increment()
+incre()
 print(t)  # Displays 101
