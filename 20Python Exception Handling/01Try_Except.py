@@ -1,5 +1,5 @@
 try:
-    f = open('somefile.txt', 'r')
+    f = open('test.txt', 'r')
     print(f.read())
     f.close()
 except IOError:
