@@ -1,4 +1,4 @@
-def func(i, j=100):
+def func(i, j=50):
     print(i, j)
 
 
