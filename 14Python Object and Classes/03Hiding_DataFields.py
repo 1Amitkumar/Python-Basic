@@ -1,4 +1,4 @@
-class BankAccount:
+class Account:
 
     # constructor or initializer
     def __init__(self, name, money):
@@ -19,7 +19,7 @@ class BankAccount:
         return self.__balance
 
 
-b1 = BankAccount('tim', 400)
+b1 = Account('raj', 400)
 print(b1.withdraw(500))
 b1.deposit(500)
 print(b1.check_balance())
