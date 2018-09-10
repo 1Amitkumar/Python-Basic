@@ -1,4 +1,4 @@
-my_list = [1, 2, 3, 4]
+list = [1, 2, 3, 4]
 
-for i in my_list:
+for i in list:
     print(i)
