@@ -1,3 +1,3 @@
-today = "party"
-if today == "party":
-    print("thumbs up!")
+sunday = "holiday"
+if sunday == "holiday":
+    print("You are free today")
