@@ -1,5 +1,5 @@
 try:
-    number = eval(input("Enter a number: "))
-    print("The number entered is", number)
+    num = eval(input("enter a number: "))
+    print("the number entered is", num)
 except NameError as ex:
     print("Exception:", ex)
